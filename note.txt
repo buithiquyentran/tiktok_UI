@@ -1,0 +1,10 @@
+Mục đích sử dụng thư viện customize cra (dựa trên react-app-rewired) để giúp cấu hình lại 
+những cấu hình webpack mà không cần phải npm run eject làm bun ra cấu hình webpack đã cấu hình sẵn bên trong.
+
+.babelrc cấu hình cho thư viện babel hiểu dịch alias. VD: ~ là ./src
+
+.babelrc sẽ không được CRA hiểu nên phải cấu hình config-overrides.js để cho ghi đè lại cấu hình 
+của webpack đã bị ẩn đi
+
+jsconfig.json giúp automa giúp tự động gợi ý đường dẫn. 
+VD: ~/ sẽ gợi ý tiếp những thư mục nằm trong thư mục src
