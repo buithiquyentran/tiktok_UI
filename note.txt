@@ -1,3 +1,4 @@
+<1>
 Mục đích sử dụng thư viện customize cra (dựa trên react-app-rewired) để giúp cấu hình lại 
 những cấu hình webpack mà không cần phải npm run eject làm bun ra cấu hình webpack đã cấu hình sẵn bên trong.
 
@@ -8,3 +9,15 @@ của webpack đã bị ẩn đi
 
 jsconfig.json giúp automa giúp tự động gợi ý đường dẫn. 
 VD: ~/ sẽ gợi ý tiếp những thư mục nằm trong thư mục src
+
+<2> 
+Tạo GlobalStyles component
+Cài thư viện SASS: npm i -D sass
+Reset CSS: npm i normalize.css
+Default CSS: font-family, font-size, line-height
+
+<3>
+Phân tích tổng quan Layout
+Cài đặt react-router-dom: npm i react-router-dom
+Đưa cấu hình routes ra ngoài
+Xây dựng cơ chế tải Layout
